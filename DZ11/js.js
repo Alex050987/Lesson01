@@ -1,7 +1,7 @@
-let hello = prompt("Добрый день! Заказывайте!");
+let yourOrder = prompt("Добрый день! Заказывайте!");
 let age;
 
-switch (hello) {
+switch (yourOrder) {
     case 'сигареты':
         age = confirm('Вам есть 18?');
         if (age) {
