@@ -24,6 +24,15 @@ switch (yourOrder) {
             alert('Несовершеннолетним не продаем');
         }
         break;
+
+    case 'сок':
+        chooseJuise = prompt('Какой именно сок?');
+        let juise = 30;
+        let howMuch = +prompt('Сколько?');
+        let sum = juise * howMuch;
+        alert(`С Вас ${sum} гривен! Держите Ваш ${chooseJuise} сок!`);
+        
+        break;
     
     default:
         alert('Вы пьяны? Говорите по-русски, пожалуйста!');
